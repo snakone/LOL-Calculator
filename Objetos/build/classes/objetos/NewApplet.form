@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.2" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.AppletFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel15" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCampeon2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel17" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel18" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jTextObjetoDefensa" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextObjetoAtaque" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextObjetoVida" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextObjetoNombre" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextObjetoMana" alignment="0" min="-2" pref="132" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane2" min="-2" pref="138" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="112" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jObjeto4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jObjeto1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jObjeto8" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="jObjeto5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jObjeto3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jObjeto6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanelObjetos" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                              <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jNuevoObjeto" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jQuitarObjeto" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jA√±adirObjeto" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLimpiar" min="-2" pref="90" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jCampeon1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel10" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="jJugadorMana" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jJugadorAtaque" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jJugadorDefensa" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jJugadorVida" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jJugadorNombre" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jCrear" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jTextNivel" min="-2" pref="58" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jNuevo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jRegistro" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jBorrar" min="-2" pref="73" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jImportar" min="-2" pref="117" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCampeon" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextFoto" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jTextCampeon" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextVida" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextAtaque" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextMana" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextDefensa" alignment="0" min="-2" pref="132" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane1" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="az" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="za" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jPrevious" alignment="0" min="-2" pref="49" max="-2" attributes="0"/>
+                                          <Component id="jNext" alignment="0" min="-2" pref="49" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jComboBox" alignment="1" min="-2" pref="122" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jA√±adirCampeon" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jQuitarCampeon" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jCargarFoto" min="-2" pref="114" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jA√±adirCampeon" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCargarFoto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jQuitarCampeon" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jComboBox" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="21" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jCampeon" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextCampeon" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextVida" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextAtaque" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextMana" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextDefensa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jNext" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPrevious" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="az" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="za" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFoto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jNuevo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRegistro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jBorrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jImportar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jCrear" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextNivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jCampeon1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jJugadorNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jJugadorVida" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jJugadorAtaque" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jJugadorMana" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jJugadorDefensa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLimpiar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jCampeon2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jTextObjetoNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jTextObjetoVida" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jTextObjetoAtaque" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jTextObjetoMana" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jTextObjetoDefensa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="jScrollPane2" alignment="0" min="-2" pref="168" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jLabel20" alignment="0" min="-2" pref="14" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="jPanelObjetos" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jNuevoObjeto" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jA√±adirObjeto" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jQuitarObjeto" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jObjeto8" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jObjeto1" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jObjeto3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jObjeto6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jObjeto4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jObjeto5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="53" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="az">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A-Z"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="azMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Foto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jQuitarCampeon">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Quitar Campe&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jQuitarCampeonMouseClicked"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jFoto" alignment="0" pref="103" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jFoto" alignment="0" pref="103" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jFoto">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vida Total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Foto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jCargarFoto">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cargar Foto"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCargarFotoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Foto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFoto">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextObjetoAtaque">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextObjetoDefensa">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Objetos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estados Finales"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jNext">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-&gt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jNextActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="za">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Z-A"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="zaMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jPrevious">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;-"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jObjeto5">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto5" alignment="0" pref="57" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto5" alignment="0" pref="49" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelObjeto5">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tabla BBDD"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextNivel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nivel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jJugadorDefensa">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jJugadorAtaque">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jJugadorMana">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Armadura Total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jJugadorVida">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mana Total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCampeon1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Campe&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jRegistro">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Registro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jRegistroMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jImportar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Importar Datos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jImportarMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Da&#xf1;o Total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jJugadorNombre">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="jLista">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new javax.swing.AbstractListModel() {&#xa;    String[] strings = { &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot; };&#xa;    public int getSize() { return strings.length; }&#xa;    public Object getElementAt(int i) { return strings[i]; }&#xa;}" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jListaMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jNuevoObjeto">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nuevo Objeto"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jNuevoObjetoMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jLimpiar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLimpiarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCampeon">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Campe&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanelObjetos">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jFotoObjetos" alignment="0" pref="82" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jFotoObjetos" alignment="0" pref="81" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jFotoObjetos">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="jTextCampeon">
+    </Component>
+    <Component class="javax.swing.JButton" name="jA&#xf1;adirCampeon">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="A&#xf1;adir Campe&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jA&#xf1;adirCampeonMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jA&#xf1;adirCampeonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jFotoCampeon" alignment="0" pref="78" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jFotoCampeon" alignment="0" pref="78" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jFotoCampeon">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jObjeto1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto1" alignment="0" pref="57" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelObjeto1">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jObjeto8">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjetos2" alignment="0" pref="57" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjetos2" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelObjetos2">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="jComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(new String[] { &quot;Campeones&quot;, &quot;Objetos&quot;})" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBorrar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Borrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jBorrarMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextDefensa">
+    </Component>
+    <Component class="javax.swing.JButton" name="jNuevo">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nuevo Campe&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jNuevoMouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jNuevoMouseEntered"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextAtaque">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextMana">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Armadura"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextVida">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Da&#xf1;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mana"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jCrear">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Crear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jCrearMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Campeones"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jObjeto4">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto4" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto4" alignment="0" pref="49" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelObjeto4">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jObjeto6">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto6" alignment="0" pref="57" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto6" alignment="0" pref="49" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelObjeto6">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jObjeto3">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto3" alignment="0" pref="57" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelObjeto3" alignment="0" pref="49" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelObjeto3">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="jTextObjetoNombre">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCampeon2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Objeto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Armadura"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextObjetoMana">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mana"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextObjetoVida">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vida"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.SÊƒÈÓ“&|@%u-ÇblÓÿ'ÆŒ ‹∏ù¢/?cîÂs°xe$E,!çÒGmn~¿?n6pç)7Tq<ÄüÔÿ¶ÆzU†¯5¶X5\*È#Y¸¯.n?€œ√dBVÙf4F(ÅpU·.àM+.ØPc=è# M={ÄÅøΩ·Pv Úr Xq^6`w∆∞ê"Ú'∏q|Uq$1<^¥‚àB%] ç$g7w©õw•4~|DY€cAØ.#»byd¡¬Gæ†˝YT*%ÙﬂI˙‚o dNHÿâA§‰ÃeX:|&ÍnOÌ?M#jV≤(v6≥¶†f1,(î~<RKNäÿËò®§øÛ∫á2(bA¿·Û›»^F˘ÆÉ»U1ÜgJS-Ω‰P‚y"SfZéY Ör0Y95h≈÷06ÊY}xvÇ£7  ≥¯ÎÙ√yzm&Jo° Ä´Ò<"t«m#™#  ,%c˙¸˛±VÃIN«_WßJa|{qnëOYÍ≠ˆM„HGVÌ_”ƒÇ f%ømè¢2!Óc
+’–é<uE$)‘≥ÛÄ	$È
+p`CÌmm#øà4"‡á-„+lO[Jﬂii◊qw‚ÇegtÓ†º'bU}eõ≠,[˙•2”Öù⁄rlT‡“·=*{Êe)à◊Ê´ÂhlO ˛I1}S/ j≤%JÏ•“©0ÄhgkU4ﬂ”î™õïJ`È@3Ÿ£ßnz4À	Læ—Õ·±86f%¿±odƒÌuf„l0Íê˛’2v\K:_fx∆6˝òMLAo5At>ﬂ¢0+o-2äHaG°|iWÑm=Ë∞° ^"Fh8xãp)8!"8Œ°IOGÓÏèx„ñ£‘Û©Ëj™/ˇÉJGf¶í¡Íî|lè®´À+ß!}2rc`7‘+G0˙S>/ëŸOhwÃ¡Ω@`gg1¯"~j`Úƒ¶#∏ùîu)‚Ru‚|pøâ§yo%√<=+Ow.kÂJOh˛äh¢PQu-¡
+0˘&D|w€rc>◊≤∏lJi"pw∂ÃÀ3$utÏΩ‹~!Enë™a§¿å◊ÔVu{≤kj~/¬54Kª]OsqÊà5´˙2à≠º @BŸ∏∂!?:¨C!tS“€á"}∏h/'Õ^NØq1z‡Ral„cg@Í'f£-*u?fS/´Ω(3LÄlOÎ˝n·Ü’BL	~å¶Â5ç qI’1P$cth’…	2„Xq}äˆÁú$ £t∏XFnÈ )\'bî∞~&$$-,xM`=Ì|wyˆ∫Êåå˜æ¸ „Fe°ÿ®Z6D}2fîæ™ fBÄ©8!`*˜Êr¨ı=Hh5P™&9X°!sa√Ö˙Ù
+n&câ∂8FßFj0ó&\ÎyW°˚n{®ÈjRí{.´qws´‰É;¯—–˙‰no=@yç7!"á>	"„÷/(sÿÍ…¢„Ω—úQ¯ÂÕôJg@’ˇµ£©‰Ü+]7‘_xÔNXf‚DZ5™{: o¸m»£C;=≤øµhqxj…Èa"Ÿ\/—À´K~É[}?'c…á ¿§PÍ†¬°6Ïmê¿I¡◊ °µ7áÛ«o"Y^Â(Sò-tÄ´4eŒæıÚˇÔ0∞ªO§⁄s¥0"(ZÓ{Û=ibqPéc≠∫  tp%ÍfaÁıYEüﬂzD¢QmëÔ–·Ô—Fs∏+ ¿–	–¶œ¯± nÖM⁄ÀÁ+)Ñ+3‡;¶ªsóˆ•hˇP%≠©ıxtTCÙ˚u˝èJŸ*ñ‘ª‚óÂ¸ÛÎoÏÂZÊ≈Æ|®‰~"Ó©§TP”˘l<ı˜£ÍwM&Æó†:%ı0Ãlo?{4lr›¬¢Ç.$¨Ú°p_—ÛûûÊíΩRs¢N*>b,ÓK–?¶∂/}í«eQÛ
+gf	ÆÔo#»úVp/≈´Izè∑ÆhyÔ˙eõúS©yvJ\Ÿs,cœÒR¬3~ﬂmw!gcÅÑÂiv!Í°¨b™˙é`oé€dseZ!:VÂ`··®´ÎØe\Œé|úµfbÏ‹íwI)jb†EL'˜ÛÊ«FMqgÇÉ∞˛'®6pöÌS\Á&xT˚k∫De/J§òÁ†tñ¶¬gQ`Fu∞ﬁ\ˆ;_◊ÎZ,#Ë∫aËQ™'3¸˜7ÏBk8)ÒôÏ='kj7ODyì±ÿEm8_ò-	Ô?sÉkz~}”Í°EP)◊Æ∏ûÜÆ\H(	q¸»\w≠¡§kZ(;<MBÑw,]e@®QM:ÂmÁc≠jtkp‡{∑hyó©qL*Ï,$ ZiIÈø1púxg„8@Vπ´¬ `1=≥ıÌºò≥tFp¸ŒuApÖvFJ9pÚ#!p◊8L.˜,2Oñf3](¥F˛fc¡Dwm
+‚5AC™ë‡"˜Òıô¨⁄UW˛ùøb∞iuç∫mW^ô◊&lK¡ΩâÒ6”tMzi ≠`6Ò)XAqOfTûdZzx∫SdËÄ©∞_ãPÚ ODø8|wëîeG≥DV^€=jV,C*MÄSE}f¥Ca(¬««pmmu{ju„ÏÒ@Ã `úl-B›≈†À˚é˚S€(bıeÏ’6Ú…÷*TÏ°∏*jØÄDı]ej%¬=16ßR+ÕÆ¶ˆefs`·'}¶2ªr®^9Æ˚wX‰Ö]ˇ™ 0‚a¨Õ,(&2‚üm8t9&¶◊xF∆†∑9b`/&∞∂ñõ^&∑@Ú8AWGH0§áh*›∏…kÑB)3scÚüáÈ0:-4& !®$2heø–tÌØ®≤iÚ9,wm∞!‡òÏƒ[‰õ¬âÎod”_aÁqaßvÁ`ô(≈[Ë€≠à˛c:b◊∞Œ5;Ihf@PpéillÛ$gLC]äb,	.˜í∞-Ã◊ÃÏG-i∆ lq≈÷`∑ß0®``o`U‰íô>ì“~k!r'—ßìôTAÉ≥ÕB+iıì4t@∂'&≠81–15°‹fG)ÑXÄ h¨√=‡-J˘3I´]+Dædªr…åê%®Ò˙ñbx@Ä˚©\¨5†∞¿2InÓ-≈:ß:UhX"Î|¿x1}9v/¢∞* ÀÄvs•©|◊†./mlg	Oìej°8&Ã4˘À¢üc†ºêΩoÇóGY∫Hg\—ørº–BHëcqá°√êä§ß)<
+cl?e{tKÆﬁ©e`ı?<ß;–ó%Ωëda1ßÔ˘¸≥Õ‚:!%˝¬V3nm2rΩ∞≥c9xD"sÍ9vÄ>!‘LD9%_„z)¥.ﬁ⁄m“—øDˆ–ô˙T≠%[\˜ﬂ:=eØSw 	=^orLuÉ2}ƒÆ•Ë¿î
